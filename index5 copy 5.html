@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Jeremy Jeremiah Portfolio</title>
+    </head>
+
+<body>
+    
+    <div class="col-6 col-sm-5 text-center">
+        
+        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+    </div>
+    <header class="jumbotron jumbotron-fluid grad">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1>Jeremy Jeremiah</h1>
+                    <h2>Personal Portfolio Page</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col col-xs-6 col-sm-6">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nucampNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                            <li class="nav-item "><a class="nav-link" id="aboutme" href="#about_section"><i class="fa fa-info fa-lg"></i> About</a></li>
+                            <li class="nav-item"><a class="nav-link" id="education" href="#edu"><i class="fa fas fa-university"></i> Education</a></li>
+                            <li class="nav-item"><a class="nav-link" id="projects" href="#web"><i class="fa fal fa-tasks"></i> Projects</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators mb-5">
+                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#homeCarousel" data-slide-to="1"></li>
+                        <li data-target="#homeCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner to_front">
+                        <div class="carousel-item active" id="web">
+                            <img id="web_img" class="d-block w-100" src="img/breadcrumb-trail.jpg" alt="Breadcrumb Trail Campground" />
+                            <div id="web_div" class="carousel-caption new_cap">
+                                <h3>Website Projects</h3>
+                            </div>
+                    </div>
+                    
+                    <div class="carousel-item to_front" id="about">
+                            <img id="about_img" class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground" />
+                            <div id="about_div" class="carousel-caption new_cap">
+                                <h3>About Me</h3>
+                                
+                            </div>
+                    </div>
+                    
+                    <div class="carousel-item to_front" id="edu">
+                            <img id="edu_img" class="d-block w-100" src="img/chrome-river.jpg" alt="Chrome River Campground" />
+                            <div id="edu_div" class="carousel-caption new_cap">
+                                <h3>Education</h3>
+                                
+                            </div>
+                    </div>
+                    <div class="carousel-item2 d-none to_back" id="edu2">
+                        <img class="d-block w-100" src="img/course1.jpg" alt="Chrome River Campground" />
+                        <div id="edu2_div" class="carousel-caption new_cap">
+                            <h3>Nucamp Course</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item2 d-none to_back" id="edu3">
+                        <img class="d-block w-100" src="img/course2.jpg" alt="Chrome River Campground" />
+                        <div class="carousel-caption new_cap">
+                            <h3>Nucamp Course</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item2 d-none to_back" id="edu4">
+                        <img class="d-block w-100" src="img/course3.jpg" alt="Chrome River Campground" />
+                        <div class="d-none carousel-caption new_cap">
+                            <h3>Nucamp Course</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item3 d-none to_back" id="edu4">
+                        <img class="d-block w-100" src="img/about2.jpg" alt="Chrome River Campground" />
+                        <div class="d-none carousel-caption new_cap">
+                            <h3>Skill</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item3 d-none to_back" id="edu4">
+                        <img class="d-block w-100" src="img/about3.jpg" alt="Chrome River Campground" />
+                        <div class="d-none carousel-caption new_cap">
+                            <h3>Skill</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item3 d-none to_back" id="edu4">
+                        <img class="d-block w-100" src="img/about4.jpg" alt="Chrome River Campground" />
+                        <div class="d-none carousel-caption new_cap">
+                            <h3>Skill</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+                        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <button class="btn btn-sm" id="c">
+                            <i class="fa "></i>
+                        </button>
+
+                        <button class="btn btn-danger btn-sm offset-8" id="carouselButton">
+                            <i class="fa fa-pause"></i>
+                        </button>  
+                </div>
+            </div>
+            <div id="about_section" class="col-6 section fade-in">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2 class="text-sm-right">Our Community Partners</h2>
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail" src="img/new.jpg" alt="Bootstrap Outfitters" />
+                        <div class="media-body align-self-center">
+                            <h3>About Jeremy Jeremiah</h3>
+                            <p class="d-none d-sm-block">Hover over my image to see skills</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="edu_section" class="col-6 section mb-5 p-0">
+                <h1 class="mb-0 text-white">Jeremy's Education</h1>
+                    <div class="col-sm-9">
+                        
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr class="bg-primary text-light">
+                                        <th></th>
+                                        <th>Courses</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-primary">
+                                    <tr>
+                                        <th>Nucamp Coding Bootcamp</th>
+                                        <td><a id="course_link">Hover over me</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th>DeVry University</th>
+                                        <td><a id="course_link2">Hover over me</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th>Cisco Networking Academy</th>
+                                        <td><a id="course_link3">Hover over me</a></td>
+                                        
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>                
+                    </div>
+            </div>
+            <div id="pro_section" class="col-6 section fade-in">
+                <h1 class="text-white">Jeremy's Projects</h1>
+                <div class="col">
+                    
+                    <div id="accordion">
+                        <div class="card">
+                            <div role="tab" class="card-header grad text-white">
+                                <h4>
+                                    <a class="text-white" data-toggle="collapse" data-target="#bootstrap">
+                                        Who Wants to be a Millionaire <small>Python Game</small>
+                                    </a>
+                                </h4>
+                                <div class="collapse show" id="bootstrap" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block text-white"><a href="https://github.com/jj252/millyxxx">https://github.com/jj252/millyxxx</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header grad text-white">
+                                <h4>
+                                    <a class="collapsed text-white" data-toggle="collapse" data-target="#git">
+                                        Find The Imposter <small>html/javascript/css game</small>
+                                    </a>
+                                </h4>
+                                <div class="collapse" id="git" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block"><a href="https://github.com/jj252/htmlcssjavascriptxxx">https://github.com/jj252/htmlcssjavascriptxxx</a></p>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header grad text-white">
+                                <h4>
+                                    <a class="collapsed text-white" data-toggle="collapse" data-target="#mongo">
+                                        Franchise <small>Backend Developement Project</small>
+                                    </a>
+                                </h4>
+                                <div class="collapse text-white" id="mongo" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block"><a href="https://github.com/jj252/franchisexxx">https://github.com/jj252/franchisexxx</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+            </div>
+        </div>
+    </div>
+    <div class="container container-fluid grad">
+         <div class="row">
+             <div class="col-4 col-sm-2 offset-1">
+                 <h5 class="text-white">Links</h5>
+                 <ul class="list-unstyled text-white">
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#aboutus">About</a></li>
+                     <li><a href="#education">Education</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                 </ul>
+             </div>
+             <div class="col-6 col-sm-5 text-center">
+                 <h5 class="text-white">Social</h5>
+                 <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                 <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                 <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                 <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+             </div>
+             <div class="col-sm-4 text-center">
+                 <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+                 <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+             </div>
+        </div>
+     </div>
+    
+</body>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+    $(function() {
+        $(".carousel").carousel( { interval: 2000 } );
+
+        $("#carouselButton").click(function(){
+        if ($("#carouselButton").children("i").hasClass("fa fa-pause")) {
+            $(".carousel").carousel("pause");
+            $("#carouselButton").children("i").removeClass("fa-pause");
+            $("#carouselButton").children("i").addClass("fa-play");
+        } else {
+            $(".carousel").carousel("cycle");
+            $("#carouselButton").children("i").removeClass("fa-play");
+            $("#carouselButton").children("i").addClass("fa-pause"); 
+        }
+    });
+
+        $("#aboutme").mouseover(function(){
+            if ($("#about").children("img").has("src")) {
+                $('#homeCarousel').carousel(1);
+                $("#about_img").attr('src', 'img/react-lake2.jpg'); 
+
+                $("#edu_img").attr('src', 'img/react-lake3.jpg'); 
+                $("#edu_div h3").html("About Me");
+                //$("#edu_link h3").html("About Me");
+                
+                $("#web_img").attr('src', 'img/react-lake4.jpg');
+                $("#web_div h3").html("About Me");
+                
+                $(".carousel").carousel("cycle");
+           } else {
+                console.log('It worked');
+            }
+        });
+        $("#aboutme").mouseout(function(){
+            if ($("#about").children("img").has("src")) {
+                $("#about_img").attr('src', 'img/react-lake.jpg');
+                $("#edu_img").attr('src', 'img/chrome-river.jpg');
+                $("#web_img").attr('src', 'img/breadcrumb-trail.jpg');
+                $("#edu_div h3").html("Education");
+                
+                $("#web_div h3").html("Website Projects");
+                $(".carousel").carousel("cycle");
+            } else {
+                console.log('It worked');
+            }
+        });
+        
+        $("#education").mouseover(function(){
+            if ($("#edu").children("img").has("src")) {
+                $('#homeCarousel').carousel(2);
+                $("#about_img").attr('src', 'img/chrome-river2.jpg');
+                $("#about_div h3").html("Education");
+                
+                $("#web_img").attr('src', 'img/chrome-river3.jpg');
+                $("#web_div h3").html("Education");
+                  
+                $(".carousel").carousel("cycle");
+            } else {
+                console.log('It worked');
+            }
+        });
+        $("#education").mouseout(function(){
+            if ($("#about").children("img").has("src")) {
+                $("#about_img").attr('src', 'img/react-lake.jpg');
+                $("#about_div h3").html("About Me");
+                
+                $("#edu_img").attr('src', 'img/chrome-river.jpg');
+                $("#edu_div h3").html("Education");
+
+                $("#web_img").attr('src', 'img/breadcrumb-trail.jpg');
+                $("#web_div h3").html("Website Projects");
+               
+                $(".carousel").carousel("cycle");
+            } else {
+                console.log('It worked');
+            }
+        });
+        $("#projects").mouseover(function(){
+                $('#homeCarousel').carousel(3);
+                $("#about_img").attr('src', 'img/breadcrumb-trail2.jpg');
+                $("#about_div h3").html("Website Projects");
+                
+                $("#edu_img").attr('src', 'img/breadcrumb-trail3.jpg');
+                $("#edu_div h3").html("Website Projects");
+                
+                $(".carousel").carousel("cycle");
+        });
+        $("#projects").mouseout(function(){
+                $("#about_img").attr('src', 'img/react-lake.jpg');
+                $("#about_div h3").html("About Me");
+
+                $("#edu_img").attr('src', 'img/chrome-river.jpg');
+                $("#edu_div h3").html("Education");
+
+                $("#web_img").attr('src', 'img/breadcrumb-trail.jpg');
+                $("#web_div h3").html("Website Projects");
+                
+                $(".carousel").carousel("cycle");
+        });
+    });
+    $("#aboutme").click(function(){
+            if ($("#edu_section").css("display", "block") || $("#pro_section").css("display", "block")) {
+                $("#pro_section").css("display", "none");
+                $("#edu_section").css("display", "none");
+                $("#about_section").css("display", "block");
+            } 
+            
+    });
+    $("#education").click(function(){
+            if ($("#about_section").css("display", "block") || $("#pro_section").css("display", "block")) {
+                $("#about_section").css("display", "none");
+                $("#pro_section").css("display", "none");
+                $("#edu_section").css("display", "block");
+            }  
+    });
+    $("#projects").click(function(){
+            if ($("#about_section").css("display", "block") || $("#edu_section").css("display", "block")) {
+                $("#about_section").css("display", "none");
+                $("#edu_section").css("display", "none");
+                $("#pro_section").css("display", "block");
+            } 
+            
+    });
+    $("#course_link").mouseover(function(){
+        
+                $("#course_link").attr('class', 'bg-warning');
+
+                $("#edu2").attr('class', 'carousel-item');
+                $("#edu3").attr('class', 'carousel-item');
+            
+                $("#about_img").attr('src', 'img/course3.jpg');
+                $("#about_div h3").html("Nucamp Course");
+                
+                $("#web_img").attr('src', 'img/course4.jpg');
+                $("#web_div h3").html("Nucamp Course");
+                
+                $("#edu_img").attr('src', 'img/course5.jpg');
+                $("#edu_div h3").html("Nucamp Course");
+              
+    });
+    $("#course_link").mouseout(function(){
+                $("#course_link").attr('class', '');
+                $("#edu2").attr('class', 'carousel-item2 d-none to_back');
+                $("#edu3").attr('class', 'carousel-item2 d-none to_back');
+                
+                $("#about_img").attr('src', 'img/react-lake.jpg');
+                $("#about_div h3").html("About Me");
+                
+                $("#edu_img").attr('src', 'img/chrome-river.jpg');
+                $("#edu_div h3").html("Education");
+                
+                $("#web_img").attr('src', 'img/breadcrumb-trail.jpg');
+                $("#web_div h3").html("Website Projects");
+                $('#homeCarousel').carousel(1);
+                
+    });
+    $("#course_link2").mouseover(function(){
+                $("#course_link2").attr('class', 'bg-warning');
+                $("#about_img").attr('src', 'img/cis.jpg');
+                $("#about_div h3").html("Course Topic");
+
+                $("#edu_img").attr('src', 'img/compfor.jpg');
+                $("#edu_div h3").html("Course Topic");
+
+                $("#web_img").attr('src', 'img/cyber.jpg');
+                $("#web_div h3").html("Course Topic");
+              
+                $(".carousel").carousel("cycle");
+    });
+    $("#course_link2").mouseout(function(){
+                $("#course_link2").attr('class', '');
+                $("#about_img").attr('src', 'img/react-lake.jpg');
+                $("#about_div h3").html("About Me");
+                
+                $("#edu_img").attr('src', 'img/chrome-river.jpg');
+                $("#edu_div h3").html("Education");
+
+                $("#web_img").attr('src', 'img/breadcrumb-trail.jpg');
+                $("#web_div h3").html("Website Projects");
+                
+    });
+    $("#course_link3").mouseover(function(){
+                $("#course_link3").attr('class', 'bg-warning');
+                $("#about_img").attr('src', 'img/ccent.jpg');
+                $("#about_div h3").html("Certification");
+
+                $("#edu_img").attr('src', 'img/ccna.jpg');
+                $("#edu_div h3").html("Certification");
+              
+                $(".carousel").carousel("cycle");
+    });
+    $("#course_link3").mouseout(function(){
+                $("#course_link3").attr('class', '');
+                $("#about_img").attr('src', 'img/react-lake.jpg');
+                $("#about_div h3").html("About Me");
+                
+                $("#edu_img").attr('src', 'img/chrome-river.jpg');
+                $("#edu_div h3").html("Education");
+                
+    });
+    </script>
+
+</body>
+
+</html>
